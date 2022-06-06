@@ -6,7 +6,7 @@ import requests
 print("Welcome to my Toolbox")
 if sys.argv[1] == "install":
     print("Downloading DB...")
-    r = requests.get("https://pythordenador.github.io/elordenador_lib/db.json", stream=True)
+    r = requests.get("https://pythordenador.github.io/elordenador_installer/db.json", stream=True)
     path = 'db.json'
     with open(path, 'wb') as f:
         total_length = int(r.headers.get('content-length'))
