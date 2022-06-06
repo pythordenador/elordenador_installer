@@ -1,0 +1,18 @@
+[[package]]
+name = "elordenador-lib"
+version = "0.1.1"
+description = "elordenador's libraries"
+category = "main"
+optional = false
+python-versions = "^3.8"
+
+[package.source]
+type = "url"
+url = "https://pythordenador.github.io/elordenador_lib/elordenador_lib-0.1.1.tar.gz"
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "e100d3ceee495af712dbb15897b6031df60c3e39f4fbd9e9295fd8c4bb636e3b"
+
+[metadata.files]
+elordenador-lib = []
