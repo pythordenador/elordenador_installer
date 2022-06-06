@@ -17,7 +17,7 @@ if sys.argv[1] == "install":
     with open(path,"rb") as f:
         f = json.load(f)
         url = parser.replace(f[sys.argv[2]]["url"], f[sys.argv[2]]["version"],"<version>")
-        r = requests.get("url", stream=True)
+        r = requests.get(url, stream=True)
         path = 'pkg.tar.gz'
         with open(path, 'wb') as f:
             total_length = int(r.headers.get('content-length'))
